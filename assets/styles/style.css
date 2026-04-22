@@ -1,0 +1,13 @@
+:root {
+    --tea-green: #4f7942;
+    --light-cream: #fdfbf7;
+    --dark-brown: #3e2723;
+    --accent-leaf: #88b04b;
+}
+
+body {
+    background-color: var(--light-cream);
+    color: var(--dark-brown);
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
