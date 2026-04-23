@@ -57,3 +57,11 @@ body::before {
     background-size: cover;
     padding: 175px 0 !important;
 }
+
+.hero {
+    background: linear-gradient(rgba(253, 251, 247, 0.233), rgba(253, 251, 247, 0.266)), 
+                url('../images/tea-blend-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 !important;
+}
