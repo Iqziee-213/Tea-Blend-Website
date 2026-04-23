@@ -48,3 +48,7 @@ body::before {
     color: var(--light-cream) !important;
     border: none;
 }
+
+.navbar {
+    padding: 1rem 0;
+}
