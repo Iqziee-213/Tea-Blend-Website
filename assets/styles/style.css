@@ -1,5 +1,5 @@
 :root {
-    --tea-green: #4f7942;
+    --tea-green: #517845;
     --light-cream: #fdfbf7;
     --dark-brown: #3e2723;
     --accent-leaf: #88b04b;
@@ -36,4 +36,15 @@ body::before {
 
 .navbar-brand, .nav-link {
     color: var(--light-cream) !important;
+}
+
+.nav-link:hover {
+    color: var(--accent-leaf) !important;
+    text-decoration: underline;
+}
+
+.btn-warning {
+    background-color: var(--accent-leaf) !important;
+    color: var(--light-cream) !important;
+    border: none;
 }
