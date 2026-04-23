@@ -99,3 +99,12 @@ body::before {
 .row.g-4 {
     margin-bottom: 2rem;
 }
+#reviewCarousel {
+    background-color: var(--tea-green);
+    color: var(--light-cream);
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1);
+}
