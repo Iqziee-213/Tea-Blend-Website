@@ -52,3 +52,8 @@ body::before {
 .navbar {
     padding: 1rem 0;
 }
+.hero {
+    background: linear-gradient(rgba(253, 251, 247, 0.201), rgba(253, 251, 247, 0.207)), url('../images/tea-blend-banner.jpg');
+    background-size: cover;
+    padding: 175px 0 !important;
+}
