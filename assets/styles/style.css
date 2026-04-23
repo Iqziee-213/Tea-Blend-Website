@@ -76,3 +76,7 @@ body::before {
     border: none;
     padding: 12px 30px;
 }
+#featured img {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
