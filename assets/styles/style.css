@@ -80,3 +80,18 @@ body::before {
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
+
+.card {
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
