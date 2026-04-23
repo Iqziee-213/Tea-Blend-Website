@@ -53,15 +53,26 @@ body::before {
     padding: 1rem 0;
 }
 .hero {
-    background: linear-gradient(rgba(253, 251, 247, 0.201), rgba(253, 251, 247, 0.207)), url('../images/tea-blend-banner.jpg');
+    background: linear-gradient(rgba(253, 251, 247, 0.552), rgba(253, 251, 247, 0.574)), url('../images/tea-blend-banner.jpg');
     background-size: cover;
     padding: 175px 0 !important;
 }
 
 .hero {
-    background: linear-gradient(rgba(253, 251, 247, 0.233), rgba(253, 251, 247, 0.266)), 
+    background: linear-gradient(rgba(253, 251, 247, 0.593), rgba(253, 251, 247, 0.552)), 
                 url('../images/tea-blend-banner.jpg');
     background-size: cover;
     background-position: center;
     padding: 120px 0 !important;
+}
+
+.hero h1 {
+    color: var(--tea-green);
+    font-weight: 900;
+}
+
+.hero .btn-success {
+    background-color: var(--tea-green);
+    border: none;
+    padding: 12px 30px;
 }
