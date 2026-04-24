@@ -108,3 +108,11 @@ body::before {
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(1);
 }
+
+footer {
+    border-top: 5px solid var(--tea-green);
+}
+
+footer a:hover {
+    color: var(--accent-leaf) !important;
+}
