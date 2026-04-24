@@ -116,3 +116,11 @@ footer {
 footer a:hover {
     color: var(--accent-leaf) !important;
 }
+
+body {
+    overflow-x: hidden;
+}
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
